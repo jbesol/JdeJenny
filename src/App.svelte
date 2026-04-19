@@ -37,7 +37,7 @@
 <div class="app">
   <Header onAddProduct={openAdd} onLoginRequest={() => showLogin = true} />
   <main>
-    <Hero onAddProduct={openAdd} />
+    <Hero />
     <Catalog products={$products} onEdit={openEdit} onDelete={handleDelete} />
     <CustomOrder />
   </main>

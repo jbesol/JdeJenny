@@ -8,8 +8,7 @@
 <header class="header">
   <div class="header-inner">
     <div class="brand">
-      <span class="brand-name">J de Jenny</span>
-      <span class="brand-tagline">Accesorios únicos para cada ocasión</span>
+      <img src="/jdejenny.png" alt="J de Jenny" class="brand-logo" />
     </div>
 
     <nav class="nav">
@@ -75,18 +74,10 @@
     user-select: none;
   }
 
-  .brand-name {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.35rem;
-    font-weight: 800;
-    color: var(--purple-dark);
-    letter-spacing: -0.3px;
-  }
-
-  .brand-tagline {
-    font-size: 0.72rem;
-    font-weight: 400;
-    color: var(--text-light);
+  .brand-logo {
+    height: 44px;
+    width: auto;
+    display: block;
   }
 
   .nav {
@@ -163,7 +154,6 @@
 
   @media (max-width: 768px) {
     .nav { display: none; }
-    .brand-tagline { display: none; }
     .header-inner { padding: 0 1rem; }
   }
 </style>
