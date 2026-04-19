@@ -1,0 +1,10 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+- Que el mensaje de whatsapp tenga algo como "Hola me gustaria encargar un pedido"
+- una seccion de producto para realizr un producto personalizado
+- En "agregar producto" al momento de agreagar la imagen, que se pueda cargar un archivo de imagen, no una url
+
+Por hacer:
+
+-que no todos los usuarios puedan modificar, agreagar y eliminar productos. Solo necesito que 2 personas tengan este permiso
+-que el logo sea mas visible en la pagina, no solo en el icon
