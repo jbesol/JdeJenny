@@ -1,5 +1,5 @@
 <script>
-  const WHATSAPP_NUMBER = '573014476025';
+  const WHATSAPP_NUMBER = '573014470000';
 
   let name = '';
   let description = '';
